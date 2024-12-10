@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  background-image: url(https://img.freepik.com/free-photo/solid-painted-concrete-wall-textured-backdrop_53876-110679.jpg?semt=ais_hybrid);
+  background-size: contain;
+  width: 400px;
+  box-shadow: 5px 10px 5px black;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #343232;
+  text-shadow: 5px 5px 2px solid;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  padding-left: 10px;
+  border-radius: 10px;
+
+}
+
+img {
+  filter: drop-shadow(5px 5px 10px black);
+}
